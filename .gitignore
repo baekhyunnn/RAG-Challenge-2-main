@@ -1,0 +1,130 @@
+# ========== 补充：RAG项目专属过滤规则 ==========
+# 向量库目录（自动生成，可重新执行脚本生成，体积大）
+vector_store/
+# PDF解析测试输出目录（本地测试生成，无需上传）
+mineru_test_output/
+pymupdf_test_output/
+# 你的PDF知识库目录（若PDF是私有数据，建议过滤；若为公开测试PDF可保留）
+# data/stock_data/pdf_reports/  # 私有PDF请取消注释，公开PDF可保持注释
+
+# ========== 原有规则（保留不变） ==========
+data/erc2_set/pdf_reports/
+data/erc2_set/debug_data/
+data/erc2_set/databases/
+data/erc2_set/databases_ser_tab/
+data/test_set/debug_data
+data/test_set/databases
+data/test_set/databases_ser_tab
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+# C extensions
+*.so
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+# PyInstaller
+*.manifest
+*.spec
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+# Translations
+*.mo
+*.pot
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+# Flask stuff:
+instance/
+.webassets-cache
+# Scrapy stuff:
+.scrapy
+# Sphinx documentation
+docs/_build/
+# PyBuilder
+.pybuilder/
+target/
+# Jupyter Notebook
+.ipynb_checkpoints
+# IPython
+profile_default/
+ipython_config.py
+# pyenv
+# .python-version
+# pipenv
+#Pipfile.lock
+# poetry
+#poetry.lock
+# pdm
+#pdm.lock
+.pdm.toml
+.pdm-python
+.pdm-build/
+# PEP 582
+__pypackages__/
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+# SageMath parsed files
+*.sage.py
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+# Spyder project settings
+.spyderproject
+.spyproject
+# Rope project settings
+.ropeproject
+# mkdocs documentation
+/site
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+# Pyre type checker
+.pyre/
+# pytype static type analyzer
+.pytype/
+# Cython debug symbols
+cython_debug/
+# PyCharm
+#.idea/
